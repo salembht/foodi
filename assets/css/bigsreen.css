@@ -310,14 +310,14 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    /* height: 90%; */
+    height: 110%;
     justify-content: center;
   }
   .wrapper {
     display: flex;
     grid-gap: 1em;
     overflow: hidden;
-    width: 80%;
+    width: 90%;
   }
   .wrapper > .inner {
     display: flex;
@@ -325,7 +325,7 @@
     transition: all 1s ease-in-out;
   }
   .wrapper > .inner >.card {
-    width:calc(100%/3);
+    width: calc(100%/3);
     border-radius: 30px;
     margin: 10px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
@@ -408,6 +408,7 @@
     border-radius: 50% 50% 15px 15px;
     margin: 30% auto;
   }
+  
   .testmionals .test-left .back-image img {
     position: absolute;
     top: -202px;
@@ -607,15 +608,7 @@
     background-color: #39db4a;
     color: white;
   }
-  .copy {
-    grid-column: 2 / span 3;
-    height: 50px;
-    color: #6e6e6e;
-    font-size: 18px;
-    padding-top: 15px;
-  }
-  
-  
+
   .top-chef{
     background-color: #fbfbfb;
     display: inline-block;
