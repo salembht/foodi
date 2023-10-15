@@ -354,11 +354,14 @@ color: gray;
     padding: 10px;
     text-align: center;
     border-radius: 0px 20px 0px 40px;
-    z-index: 54254;
+    z-index: 54254; 
+    transition: width 0.5s;
 } 
 .wrapper > .inner>.card>i:first-child:hover{
-    font-size: 30px;
-}
+    text-align: right;
+    width: 200px;
+} 
+
 
 /* .card::after{
     content: "\2764";
@@ -386,8 +389,11 @@ color: gray;
     border-top-left-radius: inherit;
     display: block;
     width: 17.5em;
+    transition: all 5s;
   }
-
+  .card > img:hover{
+    transform: rotate(360deg);
+  }
 .testmionals{
     width: 100%;
     margin-top: 80px;
